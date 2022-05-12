@@ -4,12 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/game1/textura.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="/textura.css">
+    <title>tic-tac-toe</title>
 </head>
 <body>
-    <h1>teste</h1>
+    <div class="conteiner">
+    <h1>tic-tac-toe</h1>
+    <div id="botoes">
+        <button id="doisplayers">2 Players</button>
+        <button id="maquina">IO</button>
+    </div>
+    <div id="tabuleiro" class="row">
+        <div class="box" id="posicao1"></div>
+        <div class="box" id="posicao2"></div>
+        <div class="box" id="posicao3"></div>
 
-    <script src="/game1/index.js"></script>
+        <div class="box" id="posicao4"></div>
+        <div class="box" id="posicao5"></div>
+        <div class="box" id="posicao6"></div>
+
+        <div class="box" id="posicao7"></div>
+        <div class="box" id="posicao8"></div>
+        <div class="box" id="posicao9"></div>
+    </div>
+
+    <div id="placar">
+        <h2>Placar</h2>
+        <div id="timeX">
+            <h3>X = </h3>
+            <p id="placarX"> 0 </p>
+        </div>
+        <div id="timeO">
+            <h3>O = </h3>
+            <p id="placarO"> 0 </p>
+        </div>
+    </div>
+
+    <script src="/index.js"></script>
+</div>
 </body>
 </html>
